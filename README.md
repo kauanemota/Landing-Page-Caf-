@@ -23,8 +23,10 @@ Landing Page desenvolvida para praticar HTML5 e CSS3.
 
 ## 🌐 Projeto Online
 
-https://kauanemota.github.io/nome-do-repositorio/
+<a href="https://kauanemota.github.io/Landing-Page-Caf-/">Ver projeto online</a>
 
 ## 👩‍💻 Autora
 
-Kauane Mota
+Feito por Kauane Mota
+
+🔗 GitHub: https://github.com/kauanemota
