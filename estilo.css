@@ -2,20 +2,22 @@
 
 body {
     font-family: 'Open Sans', Times, serif;
-    background-color: #f6f1e6;
+    background-color: #ffffff;
 }
 
 #page {
     box-sizing: border-box;
-    width: 900px;
+    width: 1000px;
     margin: auto;
 }
 
 .semititulos {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    color: #a24e17;
+    margin-top: 30px;
 }
 
 #introducao .semititulos {
@@ -32,35 +34,44 @@ body {
 
 #introducao {
     position: absolute;
-   bottom: 5%;
-   left: 10px;
+   bottom: 15%;
+   left: 20px;
 }
 
 #about {
     position: relative;
+    margin-left: 10px;
 }
 
 #about .semititulos {
     text-align: left;
+    margin-top: 30px;
 }
 
 #about h2 + p {
     position: absolute;
     top: 10%;
-    left: 450px;
+    left: 400px;
 }
 
 #subtitulo {
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .icons {
-    width: 30px;
+    width: 40px;
+    color: #663a1c;
 }
 
 h1 {
     font-size: 40px;
+}
 
+h1, h2 {
+    color: #382010;
 }
 
 p {
@@ -70,22 +81,27 @@ p {
 #botao {
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 12px;
     width: 200px;
     height: 50px;
     border-radius: 30px;
     transition: 0.5s;
     border: none;
     cursor: pointer;
+    background-color: #372011;
+    color: white;
 }
 
 #botao:hover {
-    transform: translateY(2px);
+    transform: translateY(1px);
 }
 
 .frases {
     display: inline-block;
     text-align: center;
-    margin: 35px;
+    margin: 55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .cafes {
@@ -96,23 +112,54 @@ p {
 }
 
 .cafes:hover {
-    transform: translateY(-5px);
-    transition: 0.3s;
+    transform: translateY(1px);
+    transition: 0.1s;
     cursor: pointer;
+    opacity: 50%;
+}
+
+.tipos {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .gallery {
+    border: 2px solid #eee4d4;
+    border-radius: 10px;
+    margin: 15px;
     display: inline-block;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.precos {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #9e440d;
+}
+
+hr + p {
+    margin-top: 30px;
 }
 
 .explicacao {
     display: inline-block;
     text-align: center;
-    margin: 35px;
+    margin: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #eee4d4;
 }
 
 #rodape {
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
 }
