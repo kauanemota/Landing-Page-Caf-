@@ -54,6 +54,10 @@ body {
     text-align: center;
 }
 
+.icons {
+    width: 30px;
+}
+
 h1 {
     font-size: 40px;
 
@@ -64,10 +68,14 @@ p {
 }
 
 #botao {
+    text-transform: uppercase;
+    font-weight: bold;
     width: 200px;
     height: 50px;
     border-radius: 30px;
     transition: 0.5s;
+    border: none;
+    cursor: pointer;
 }
 
 #botao:hover {
@@ -84,10 +92,12 @@ p {
     width: 250px;
     height: 150px;
     margin: 15px;
+    border-radius: 10px;
 }
 
 .cafes:hover {
-    transform: translateY(-1px);
+    transform: translateY(-5px);
+    transition: 0.3s;
     cursor: pointer;
 }
 
