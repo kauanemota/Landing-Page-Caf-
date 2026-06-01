@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Frijole&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Open Sans', Times, serif;
+    background-color: #f6f1e6;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 900px;
+    margin: auto;
+}
+
+.semititulos {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#introducao .semititulos {
+    text-align: left;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#introducao {
+    position: absolute;
+   bottom: 5%;
+   left: 10px;
+}
+
+#about {
+    position: relative;
+}
+
+#about .semititulos {
+    text-align: left;
+}
+
+#about h2 + p {
+    position: absolute;
+    top: 10%;
+    left: 450px;
+}
+
+#subtitulo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+#botao {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#botao:hover {
+    transform: translateY(2px);
+}
+
+.frases {
+    display: inline-block;
+    text-align: center;
+    margin: 35px;
+}
+
+.cafes {
+    width: 250px;
+    height: 150px;
+    margin: 15px;
+}
+
+.cafes:hover {
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.gallery {
+    display: inline-block;
+    text-align: center;
+}
+
+.explicacao {
+    display: inline-block;
+    text-align: center;
+    margin: 35px;
+}
+
+#rodape {
+    text-align: center;
+    font-weight: bold;
+}

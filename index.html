@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="assets/iconecafe.png" type="image/x-icon">
     <title>Café Artesanal</title>
 </head>
 <body>
-    <div>
-        <header>
-            <img src="assets/bckcafé.jpg" alt="">
-             <div>
-                <p>Café Artesanal</p>
-
-                <h1>Sabor de cafeteria <br> no conforto da sua rotina</h1>
+    <div id="page">
+        <header id="hero">
+            <img src="assets/background.png" alt="">
+             <div id="introducao">
+                <p class="semititulos">Café Artesanal</p>
+                <h1>Sabor de cafeteria <br> no conforto <br> da sua rotina</h1>
 
                 <p>
                     Cafés especiais, selecionados com cuidado e <br> 
@@ -21,7 +21,7 @@
                     <br> emexperiências únicas
                 </p>
 
-                <button>Conheça nossos cafés</button>   
+                <button id="botao">Conheça nossos cafés</button>   
 
             </div>
         </header>
@@ -29,77 +29,101 @@
         <main>
             <section id="about">
 
-                <p>Sobre Nós</p>
+                <p class="semititulos" >Sobre Nós</p>
 
                 <h2>Mais que café, <br> uma experiência</h2>
 
-                <p>Acreditamos que cada detalhe importa. Por isso, trabalhamos <br> com grãos
+                <p>
+                    Acreditamos que cada detalhe importa. Por isso, trabalhamos <br> com grãos
                     selecionados, torra artesanal e preparo cuidadoso <br> para entregar o 
                     melhor café para você.
                 </p>
             
-                <h3>Grão Selecionados</h3>
+                <div class="frases">
+                    <h3>Grão Selecionados</h3>
+                    <p>
+                        Escolhem apenas os melhores
+                        <br> grãos de origens especiais.
+                    </p>
+                </div>
 
-                <p>Escolhem apenas os melhores
-                    <br> grãos de origens especiais.
-                </p>
-
+                <div class="frases">
                 <h3>Torra Artesanal</h3>
 
-                <p>Torra lenta que realça o sabor <br>
+                    <p>
+                        Torra lenta que realça o sabor <br>
                         e o aroma de cada grão.
-                </p>
+                    </p>
+                </div>
 
-                <h3>Feito com carinho</h3>
+                <div class="frases">
+                    <h3>Feito com carinho</h3>
+                    <p>
+                        Cada xicara é preparada, <br> pensando em você.
+                    </p>
+                </div>
 
-                <p>Cada xicara é preparada, <br> pensando em você.</p>
-                
                 <hr>
                 </section>
 
                  <section>
-                    <p>Nossos Cafés</p>
-                    <h2>Escolha o seu favorito</h2>
+                    <p class="semititulos" >Nossos Cafés</p>
+                    <h2 id="subtitulo">Escolha o seu favorito</h2>
 
-                    <img src="assets/imgcafe1.jpg" alt="">
-                    <h3>Espresso</h3>
+                    <div class="gallery">
+                        <img class="cafes" src="assets/imgcafe1.jpg" alt="">
+                        <h3>Espresso</h3>
                     <p>
                         Intenso e encorpado, perfeito <br> para começar o dia. <br>
                         R$ 8,90
                     </p>
+                    </div>
 
-                    <img src="assets/imgcafe3.jpg" alt="">
-                    <h3>Cappuccino</h3>
+                    
+                    <div class="gallery">
+                        <img class="cafes" src="assets/imgcafe3.jpg" alt="">
+                        <h3>Cappuccino</h3>
                     <p>
                         Equilíbrio perfeito entre café, <br> leite e espuma cremosa. <br>
                         R$ 12,90
                     </p>
+                    
+                    </div>
 
-                    <img src="assets/imgcafé.jpg" alt="">
-                    <h3>Mocha</h3>
+                    <div class="gallery">
+                        <img class="cafes" src="assets/imgcafe.jpg" alt="">
+                        <h3>Mocha</h3>
                     <p>
                         A combinação de chocolate <br> com o melhor café. <br>
                         R$ 14,90
                     </p>
+                    </div>
+
                  </section>
 
                  <section id="beneficios">
-                    <p>Por que escolher aurora?</p>
+                    <p class="semititulos" >Por que escolher aurora?</p>
 
-                    <h3>Grãos sustentáveis</h3>
-                    <p>
-                        Compromisso com produtoras <br> e práticas responsáveis.
-                    </p>
+                    <div class="explicacao">
+                        <h3>Grãos sustentáveis</h3>
+                        <p>
+                            Compromisso com produtoras <br> e práticas responsáveis.
+                        </p>
+                    </div>
 
-                    <h3>Entrega rápida</h3>
-                    <p>
-                        Seu café favorito chega fresquinho <br> até a sua casa.
-                    </p>
+                    <div class="explicacao">
+                        <h3>Entrega rápida</h3>
+                        <p>
+                            Seu café favorito chega fresquinho <br> até a sua casa.
+                        </p>
+                    </div>
 
-                    <h3>Embalagem sustentável</h3>
-                    <p>
-                        Cuidado com o planeta em cada <br> detalhe da nossa entrega.
-                    </p>
+                    <div class="explicacao">
+                        <h3>Embalagem sustentável</h3>
+                        <p>
+                            Cuidado com o planeta em cada <br> detalhe da nossa entrega.
+                        </p>
+                    </div>
                     <hr>
                  </section>
 
