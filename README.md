@@ -23,7 +23,7 @@ Landing Page desenvolvida para praticar HTML5 e CSS3.
 
 ## 🌐 Projeto Online
 
-<a href="https://kauanemota.github.io/Landing-Page-Caf-/">Ver projeto online</a>
+<a href="https://kauanemota.github.io/landing-page-cafe-aurora/">Ver projeto online</a>
 
 ## 👩‍💻 Autora
 
